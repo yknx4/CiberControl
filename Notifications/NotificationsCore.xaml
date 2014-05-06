@@ -18,11 +18,7 @@
                 </ResourceDictionary>
             </ResourceDictionary.MergedDictionaries>
             <Storyboard x:Key="CollapseStoryboard">
-                <DoubleAnimation From="0" To="510" Storyboard.TargetProperty="Height" Duration="0:0:1.2"  >
-                	<DoubleAnimation.EasingFunction>
-                		<BackEase EasingMode="EaseOut"/>
-                	</DoubleAnimation.EasingFunction>
-                </DoubleAnimation>
+                <DoubleAnimation From="0" To="80" Storyboard.TargetProperty="Height" Duration="0:0:1" />
             </Storyboard>
             <Style x:Key="NotificationButton" TargetType="{x:Type Button}">
                 <Style.BasedOn>
@@ -101,7 +97,7 @@
                                                                             <EasingDoubleKeyFrame KeyTime="0" Value="1" />
                                                                         </DoubleAnimationUsingKeyFrames>
                                                                         <ThicknessAnimationUsingKeyFrames Storyboard.TargetProperty="(Border.BorderThickness)" Storyboard.TargetName="MouseOverBorder">
-                                                                            <EasingThicknessKeyFrame KeyTime="0" Value="1" />
+                                                                            <EasingThicknessKeyFrame KeyTime="0" Value="2" />
                                                                         </ThicknessAnimationUsingKeyFrames>
                                                                     </Storyboard>
                                                                 </VisualState>
@@ -114,7 +110,7 @@
                                                                             <EasingThicknessKeyFrame KeyTime="0" Value="0" />
                                                                         </ThicknessAnimationUsingKeyFrames>
                                                                         <ThicknessAnimationUsingKeyFrames Storyboard.TargetProperty="(Border.BorderThickness)" Storyboard.TargetName="PressedBorder">
-                                                                            <EasingThicknessKeyFrame KeyTime="0" Value="1" />
+                                                                            <EasingThicknessKeyFrame KeyTime="0" Value="2" />
                                                                         </ThicknessAnimationUsingKeyFrames>
                                                                     </Storyboard>
                                                                 </VisualState>
@@ -177,7 +173,7 @@
                     <EventTrigger RoutedEvent="FrameworkElement.Loaded" SourceName="NotificationWindow">
                         <BeginStoryboard x:Name="FadeInStoryBoard">
                             <Storyboard>
-                                <DoubleAnimation Storyboard.TargetName="NotificationWindow" From="0.00" To="1" Storyboard.TargetProperty="Opacity" Duration="0:0:1" />
+                                <DoubleAnimation Storyboard.TargetName="NotificationWindow" From="0.01" To="1" Storyboard.TargetProperty="Opacity" Duration="0:0:1" />
                                 <DoubleAnimation Storyboard.TargetName="NotificationWindow" From="1" To="0" Storyboard.TargetProperty="Opacity" Duration="0:0:1" BeginTime="0:0:3" />
                             </Storyboard>
                         </BeginStoryboard>
@@ -217,9 +213,5 @@
         </ResourceDictionary>
     </Window.Resources>
 
-    <ItemsControl x:Name="NotificationsControl" FocusVisualStyle="{x:Null}" d:DataContext="{d:DesignData Source=DesignTimeNotificationData.xaml}" ItemsSource="{Binding .}" ItemTemplate="{StaticResource MessageTemplate}" Background="Transparent" >
-		
-    
-
-	</ItemsControl>
+    <ItemsControl x:Name="NotificationsControl" FocusVisualStyle="{x:Null}" d:DataContext="{d:DesignData Source=DesignTimeNotificationData.xaml}" ItemsSource="{Binding .}" ItemTemplate="{StaticResource MessageTemplate}" Background="Transparent" />
 </Window>
