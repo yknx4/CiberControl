@@ -18,3 +18,23 @@ C:\Users\Yknx\Documents\Visual Studio 2013\Projects\CiberControl\NotificationTes
 C:\Users\Yknx\Documents\Visual Studio 2013\Projects\CiberControl\NotificationTest\obj\Debug\Resources\Icons.g.cs
 C:\Users\Yknx\Documents\Visual Studio 2013\Projects\CiberControl\NotificationTest\bin\Debug\Notifications.dll
 C:\Users\Yknx\Documents\Visual Studio 2013\Projects\CiberControl\NotificationTest\bin\Debug\Notifications.pdb
+D:\Users\Yknx\Documents\GitHub\CiberControl\NotificationTest\bin\Debug\NotificationTest.exe.config
+D:\Users\Yknx\Documents\GitHub\CiberControl\NotificationTest\obj\Debug\NotificationTest.exe
+D:\Users\Yknx\Documents\GitHub\CiberControl\NotificationTest\obj\Debug\NotificationTest.pdb
+D:\Users\Yknx\Documents\GitHub\CiberControl\NotificationTest\bin\Debug\NotificationTest.exe
+D:\Users\Yknx\Documents\GitHub\CiberControl\NotificationTest\bin\Debug\NotificationTest.pdb
+D:\Users\Yknx\Documents\GitHub\CiberControl\NotificationTest\bin\Debug\MahApps.Metro.dll
+D:\Users\Yknx\Documents\GitHub\CiberControl\NotificationTest\bin\Debug\Notifications.dll
+D:\Users\Yknx\Documents\GitHub\CiberControl\NotificationTest\bin\Debug\System.Windows.Interactivity.dll
+D:\Users\Yknx\Documents\GitHub\CiberControl\NotificationTest\bin\Debug\Notifications.pdb
+D:\Users\Yknx\Documents\GitHub\CiberControl\NotificationTest\bin\Debug\MahApps.Metro.xml
+D:\Users\Yknx\Documents\GitHub\CiberControl\NotificationTest\obj\Debug\NotificationTest.csprojResolveAssemblyReference.cache
+D:\Users\Yknx\Documents\GitHub\CiberControl\NotificationTest\obj\Debug\MainWindow.baml
+D:\Users\Yknx\Documents\GitHub\CiberControl\NotificationTest\obj\Debug\Resources\Icons.baml
+D:\Users\Yknx\Documents\GitHub\CiberControl\NotificationTest\obj\Debug\MainWindow.g.cs
+D:\Users\Yknx\Documents\GitHub\CiberControl\NotificationTest\obj\Debug\Resources\Icons.g.cs
+D:\Users\Yknx\Documents\GitHub\CiberControl\NotificationTest\obj\Debug\App.g.cs
+D:\Users\Yknx\Documents\GitHub\CiberControl\NotificationTest\obj\Debug\NotificationTest_MarkupCompile.cache
+D:\Users\Yknx\Documents\GitHub\CiberControl\NotificationTest\obj\Debug\NotificationTest.g.resources
+D:\Users\Yknx\Documents\GitHub\CiberControl\NotificationTest\obj\Debug\NotificationTest.Properties.Resources.resources
+D:\Users\Yknx\Documents\GitHub\CiberControl\NotificationTest\obj\Debug\NotificationTest.csproj.GenerateResource.Cache

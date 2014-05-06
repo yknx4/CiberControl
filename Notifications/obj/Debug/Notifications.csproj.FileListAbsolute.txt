@@ -14,3 +14,19 @@ C:\Users\Yknx\Documents\Visual Studio 2013\Projects\CiberControl\Notifications\o
 C:\Users\Yknx\Documents\Visual Studio 2013\Projects\CiberControl\Notifications\obj\Debug\NotificationsCore.g.cs
 C:\Users\Yknx\Documents\Visual Studio 2013\Projects\CiberControl\Notifications\obj\Debug\GeneratedInternalTypeHelper.g.cs
 C:\Users\Yknx\Documents\Visual Studio 2013\Projects\CiberControl\Notifications\obj\Debug\NotificationsCore.baml
+D:\Users\Yknx\Documents\GitHub\CiberControl\Notifications\bin\Debug\Notifications.dll
+D:\Users\Yknx\Documents\GitHub\CiberControl\Notifications\bin\Debug\Notifications.pdb
+D:\Users\Yknx\Documents\GitHub\CiberControl\Notifications\bin\Debug\MahApps.Metro.dll
+D:\Users\Yknx\Documents\GitHub\CiberControl\Notifications\bin\Debug\System.Windows.Interactivity.dll
+D:\Users\Yknx\Documents\GitHub\CiberControl\Notifications\bin\Debug\MahApps.Metro.xml
+D:\Users\Yknx\Documents\GitHub\CiberControl\Notifications\obj\Debug\Notifications.csprojResolveAssemblyReference.cache
+D:\Users\Yknx\Documents\GitHub\CiberControl\Notifications\obj\Debug\Resources\Icons.baml
+D:\Users\Yknx\Documents\GitHub\CiberControl\Notifications\obj\Debug\NotificationsCore.g.cs
+D:\Users\Yknx\Documents\GitHub\CiberControl\Notifications\obj\Debug\Resources\Icons.g.cs
+D:\Users\Yknx\Documents\GitHub\CiberControl\Notifications\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Users\Yknx\Documents\GitHub\CiberControl\Notifications\obj\Debug\Notifications_MarkupCompile.cache
+D:\Users\Yknx\Documents\GitHub\CiberControl\Notifications\obj\Debug\Notifications_MarkupCompile.lref
+D:\Users\Yknx\Documents\GitHub\CiberControl\Notifications\obj\Debug\NotificationsCore.baml
+D:\Users\Yknx\Documents\GitHub\CiberControl\Notifications\obj\Debug\Notifications.g.resources
+D:\Users\Yknx\Documents\GitHub\CiberControl\Notifications\obj\Debug\Notifications.dll
+D:\Users\Yknx\Documents\GitHub\CiberControl\Notifications\obj\Debug\Notifications.pdb
