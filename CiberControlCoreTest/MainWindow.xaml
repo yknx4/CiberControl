@@ -3,6 +3,8 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Label Content="Tiempo restante:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblMinutosLeft"  Content="{Binding Path=MinutesLeft, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Left" Margin="114,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.294,-0.444"/>
+
     </Grid>
 </Window>

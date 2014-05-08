@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Threading;
 
 namespace Notifications
 {
@@ -19,8 +20,11 @@ namespace Notifications
         {
             InitializeComponent();
             NotificationsControl.DataContext = Notifications;
-            this.Top = SystemParameters.WorkArea.Top + topOffset;
-            this.Left = SystemParameters.WorkArea.Left + SystemParameters.WorkArea.Width - leftOffset;
+            //this.Top = SystemParameters.WorkArea.Top + topOffset;
+            //this.Left = SystemParameters.WorkArea.Left + SystemParameters.WorkArea.Width - leftOffset;
+            var desktopWorkingArea = System.Windows.SystemParameters.WorkArea;
+            this.Left = desktopWorkingArea.Right - this.Width ;
+            this.Top = desktopWorkingArea.Bottom - this.Height;
         }
 
         public void AddNotification(Notification notification)

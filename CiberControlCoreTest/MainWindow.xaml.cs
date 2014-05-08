@@ -21,10 +21,14 @@ namespace CiberControlCoreTest
     /// </summary>
     public partial class MainWindow : Window
     {
-        ControlCore ciberControl = ControlCore.getInstance();
+        ControlCore ciberControl ;
+        Session currentSession;
         public MainWindow()
         {
             InitializeComponent();
+            ciberControl = ControlCore.getInstance();
+            currentSession = ciberControl.CurrentSession;
+            lblMinutosLeft.DataContext = currentSession;
         }
     }
 }

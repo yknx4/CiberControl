@@ -14,3 +14,39 @@ C:\Users\Yknx\Documents\Visual Studio 2013\Projects\CiberControl\Notifications\o
 C:\Users\Yknx\Documents\Visual Studio 2013\Projects\CiberControl\Notifications\obj\Debug\NotificationsCore.g.cs
 C:\Users\Yknx\Documents\Visual Studio 2013\Projects\CiberControl\Notifications\obj\Debug\GeneratedInternalTypeHelper.g.cs
 C:\Users\Yknx\Documents\Visual Studio 2013\Projects\CiberControl\Notifications\obj\Debug\NotificationsCore.baml
+D:\Users\Yknx\Documents\GitHub\CiberControl\Notifications\bin\Debug\Notifications.dll
+D:\Users\Yknx\Documents\GitHub\CiberControl\Notifications\bin\Debug\Notifications.pdb
+D:\Users\Yknx\Documents\GitHub\CiberControl\Notifications\bin\Debug\System.Windows.Interactivity.dll
+D:\Users\Yknx\Documents\GitHub\CiberControl\Notifications\obj\Debug\Notifications.csprojResolveAssemblyReference.cache
+D:\Users\Yknx\Documents\GitHub\CiberControl\Notifications\obj\Debug\Resources\Icons.baml
+D:\Users\Yknx\Documents\GitHub\CiberControl\Notifications\obj\Debug\NotificationsCore.g.cs
+D:\Users\Yknx\Documents\GitHub\CiberControl\Notifications\obj\Debug\Resources\Icons.g.cs
+D:\Users\Yknx\Documents\GitHub\CiberControl\Notifications\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Users\Yknx\Documents\GitHub\CiberControl\Notifications\obj\Debug\Notifications_MarkupCompile.cache
+D:\Users\Yknx\Documents\GitHub\CiberControl\Notifications\obj\Debug\Notifications_MarkupCompile.lref
+D:\Users\Yknx\Documents\GitHub\CiberControl\Notifications\obj\Debug\NotificationsCore.baml
+D:\Users\Yknx\Documents\GitHub\CiberControl\Notifications\obj\Debug\Notifications.g.resources
+D:\Users\Yknx\Documents\GitHub\CiberControl\Notifications\obj\Debug\Notifications.dll
+D:\Users\Yknx\Documents\GitHub\CiberControl\Notifications\obj\Debug\Notifications.pdb
+D:\Users\Yknx\Documents\GitHub\CiberControl\Notifications\bin\Debug\Microsoft.Expression.Interactions.dll
+D:\Users\Yknx\Documents\GitHub\CiberControl\Notifications\bin\Debug\Microsoft.Expression.Prototyping.Interactivity.dll
+D:\Users\Yknx\Documents\GitHub\CiberControl\Notifications\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+D:\Users\Yknx\Documents\GitHub\CiberControl\Notifications\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+D:\Users\Yknx\Documents\GitHub\CiberControl\Notifications\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+D:\Users\Yknx\Documents\GitHub\CiberControl\Notifications\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+D:\Users\Yknx\Documents\GitHub\CiberControl\Notifications\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+D:\Users\Yknx\Documents\GitHub\CiberControl\Notifications\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+D:\Users\Yknx\Documents\GitHub\CiberControl\Notifications\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+D:\Users\Yknx\Documents\GitHub\CiberControl\Notifications\bin\Debug\ru\Microsoft.Expression.Interactions.resources.dll
+D:\Users\Yknx\Documents\GitHub\CiberControl\Notifications\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+D:\Users\Yknx\Documents\GitHub\CiberControl\Notifications\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+D:\Users\Yknx\Documents\GitHub\CiberControl\Notifications\bin\Debug\de\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+D:\Users\Yknx\Documents\GitHub\CiberControl\Notifications\bin\Debug\en\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+D:\Users\Yknx\Documents\GitHub\CiberControl\Notifications\bin\Debug\es\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+D:\Users\Yknx\Documents\GitHub\CiberControl\Notifications\bin\Debug\fr\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+D:\Users\Yknx\Documents\GitHub\CiberControl\Notifications\bin\Debug\it\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+D:\Users\Yknx\Documents\GitHub\CiberControl\Notifications\bin\Debug\ja\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+D:\Users\Yknx\Documents\GitHub\CiberControl\Notifications\bin\Debug\ko\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+D:\Users\Yknx\Documents\GitHub\CiberControl\Notifications\bin\Debug\ru\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+D:\Users\Yknx\Documents\GitHub\CiberControl\Notifications\bin\Debug\zh-Hans\Microsoft.Expression.Prototyping.Interactivity.resources.dll
+D:\Users\Yknx\Documents\GitHub\CiberControl\Notifications\bin\Debug\zh-Hant\Microsoft.Expression.Prototyping.Interactivity.resources.dll

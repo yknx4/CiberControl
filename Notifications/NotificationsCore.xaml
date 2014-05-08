@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:Model="clr-namespace:Notifications"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-                      xmlns:controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+                      
 
         xmlns:Custom="http://metro.mahapps.com/winfx/xaml/shared" x:Class="Notifications.NotificationsCore"
         mc:Ignorable="d"
@@ -12,7 +12,7 @@
     <Window.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/FlatButton.xaml" />
+                
                 <ResourceDictionary>
                     <converter:BoolToVisibilityConverter xmlns:converter="clr-namespace:Notifications" x:Key="BoolToVisibilityConverter" />
                 </ResourceDictionary>
@@ -140,7 +140,7 @@
                                                         <Ellipse x:Name="DisabledVisualElement" Fill="{DynamicResource ControlsDisabledBrush}" IsHitTestVisible="False" Opacity="0"  Width="20" Height="20"></Ellipse>
                                                         <Border x:Name="MouseOverBorder" Background="{DynamicResource GrayBrush8}" Opacity="0" Width="20" Height="20" />
                                                         <Border x:Name="PressedBorder" BorderBrush="{DynamicResource BlackBrush}" Background="{DynamicResource BlackBrush}" Opacity="0" Width="20" Height="20" />
-                                                        <ContentPresenter x:Name="contentPresenter" ContentTemplate="{TemplateBinding ContentTemplate}" Content="{TemplateBinding Content, Converter={Custom:ToLowerConverter}}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" OpacityMask="{x:Null}" RecognizesAccessKey="True" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" />
+                                                        <ContentPresenter x:Name="contentPresenter" ContentTemplate="{TemplateBinding ContentTemplate}"  HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" OpacityMask="{x:Null}" RecognizesAccessKey="True" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" />
                                                     </Grid>
                                                     <ControlTemplate.Triggers>
                                                         <Trigger Property="IsMouseOver" Value="True">
@@ -174,7 +174,8 @@
                         <BeginStoryboard x:Name="FadeInStoryBoard">
                             <Storyboard>
                                 <DoubleAnimation Storyboard.TargetName="NotificationWindow" From="0.01" To="1" Storyboard.TargetProperty="Opacity" Duration="0:0:1" />
-                                <DoubleAnimation Storyboard.TargetName="NotificationWindow" From="1" To="0" Storyboard.TargetProperty="Opacity" Duration="0:0:1" BeginTime="0:0:3" />
+                                <DoubleAnimation Storyboard.TargetName="NotificationWindow"  To="0" Storyboard.TargetProperty="Opacity" Duration="0:0:1" BeginTime="0:0:3" />
+                                <!--<DoubleAnimation Storyboard.TargetName="NotificationWindow" From="0" To="92" Storyboard.TargetProperty="Height" Duration="0:0:1" BeginTime="0:0:0"></DoubleAnimation>-->
                             </Storyboard>
                         </BeginStoryboard>
                     </EventTrigger>
@@ -213,5 +214,12 @@
         </ResourceDictionary>
     </Window.Resources>
 
-    <ItemsControl x:Name="NotificationsControl" FocusVisualStyle="{x:Null}" d:DataContext="{d:DesignData Source=DesignTimeNotificationData.xaml}" ItemsSource="{Binding .}" ItemTemplate="{StaticResource MessageTemplate}" Background="Transparent" />
+    <ItemsControl x:Name="NotificationsControl" FocusVisualStyle="{x:Null}" d:DataContext="{d:DesignData Source=DesignTimeNotificationData.xaml}" ItemsSource="{Binding .}" ItemTemplate="{StaticResource MessageTemplate}" Background="Transparent" >
+        <ItemsControl.ItemsPanel>
+            <ItemsPanelTemplate>
+                <StackPanel VerticalAlignment="Bottom" />
+            </ItemsPanelTemplate>
+        </ItemsControl.ItemsPanel>
+
+    </ItemsControl>
 </Window>
