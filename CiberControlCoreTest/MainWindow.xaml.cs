@@ -28,7 +28,8 @@ namespace CiberControlCoreTest
             InitializeComponent();
             ciberControl = ControlCore.getInstance();
             currentSession = ciberControl.CurrentSession;
-            lblMinutosLeft.DataContext = currentSession;
+            this.DataContext = currentSession;
+            
         }
     }
 }
