@@ -81,7 +81,7 @@ namespace CiberControlCore
 
         private void notifyNewTime(int minutes)
         {
-            Notification test3 = new Notification { Title = "Aviso de Tiempo", ImageUrl = "pack://application:,,,/Resources/exclamation3.png", Message = "Estimado usuario.\nUsted ha añadido" + minutes.ToString() + ".\n Gracias por su preferencia.", HasOptions = false };
+            Notification test3 = new Notification { Title = "Aviso de Tiempo", ImageUrl = "pack://application:,,,/Resources/exclamation3.png", Message = "Estimado usuario.\nUsted ha añadido " + minutes.ToString() + " minutos.\n Gracias por su preferencia.", HasOptions = false };
             notify(test3);
         }
 

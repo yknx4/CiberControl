@@ -25,7 +25,7 @@ namespace CiberControlCore
             _minutes = _minutesLeft = minutes;
             currentTimer.Interval = 60000;
 #if DEBUG
-            currentTimer.Interval /= 10;
+            currentTimer.Interval /= 30;
 #endif
 
             currentTimer.AutoReset = true;
